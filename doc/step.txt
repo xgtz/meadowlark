@@ -1,0 +1,14 @@
+- 创建网站根目录
+  + cd e:\projects\meadowlark\site
+- 添加管理项目依赖项以及项目元数据的package.json文件
+  + npm init
+  + 修改 package.json文件中的main属性为主文件名  
+- 安装Express
+  + npm install --save express
+- 创建.gitignore文件	
+  + git bash touch .gitignore
+- 创建Web引用的目录结构
+   mkdir views\layouts
+   mkdir public\img,uploads
+   mkdir lib
+   mkdir handlers
